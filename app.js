@@ -53,7 +53,7 @@ form.addEventListener('submit', (e) => {
     };
 
     stats.push(stat);
-    console.log('list of stats', stats);
+    //console.log('list of stats', stats);
 
     renderStats();
     
@@ -88,7 +88,7 @@ save.addEventListener('click', () => {
     games.push({ number: games.length + 1, totalPoints });
     renderGames();
     renderStats();
-console.log(games);
+//console.log(games);
     // reset the stats with resetStats
     resetStats();
 });
