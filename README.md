@@ -47,3 +47,28 @@ This deliverable is for tracking points scored in a sports game. The HTML / CSS 
 | Users can remove the last stat added to the game      | 2      |
 | Uses can save games and see them on the page          | 2      |
 | Code uses the provided render functions               | 2      |
+
+🎁 ✅
+
+Main Goal: your job is to add the event listeners so that the following acceptance criteria are met:
+Acceptance Criteria: 
+A user can track a player scoring points
+A user can remove the last added statistic
+A user can save games
+After a user saves a game, the app will display the game number and the total points scored
+
+
+PLAN 
+🎁  Form 'Submit' Event Listener 
+✅
+
+
+
+🎁  Remove 'Click' event listener 
+
+
+
+🎁 Save 'click' event listener
+
+
+-maybe remove console.logs for CI check? 
