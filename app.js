@@ -56,19 +56,19 @@ form.addEventListener('submit', (e) => {
     console.log('list of stats', stats);
 
     renderStats();
+    
+    form.reset();
 });
 
 remove.addEventListener('click', () => {
     // Step 2 -- add code to allow users to remove the most recent stat
 
-    //try stats.pop(stat);?
-
+    stats.pop();
+    renderStats();
     // Hint -- how do you remove an element from an array?
     // Hint -- how can we rerender the stats using a function above?
     
     //removes stats from display
-    
-    //notes: 
 });
 
 save.addEventListener('click', () => {
